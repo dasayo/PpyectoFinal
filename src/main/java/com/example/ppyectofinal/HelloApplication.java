@@ -29,7 +29,7 @@ public class HelloApplication extends Application {
         //insert.insertarUs(15457413,"Lsepulv","sdea","Luis");
         CrudSelecteProductos productos =new CrudSelecteProductos(con);
         //productos.filtro(true,"vencimiento");
-        productos.search("5","cantidad");
+        productos.search("3450.5","precio");
         //launch();
     }
 }
